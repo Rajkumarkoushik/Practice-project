@@ -1,0 +1,21 @@
+h1{
+    color: red;
+    font-size: 100px;
+}
+
+@media(max-width:1024px){
+h1{
+    color: green;
+    font-size: 50px;
+}
+}
+@media(max-width:1023px){
+    h1{
+        color: blue;
+    }
+}
+@media(max-width:767px){
+    h1{
+        color: orange;
+    }
+}
